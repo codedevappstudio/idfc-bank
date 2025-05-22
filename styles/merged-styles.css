@@ -356,7 +356,7 @@ main .section.godrej-carousel-type-b {
       margin-bottom: 10px;
     }
     .hero.block {
-      /*min-height: auto;*/
+      min-height: 50vh;
       padding: unset;
       & img {
         object-position: top;
@@ -1464,6 +1464,12 @@ footer {
 .title-mb-3 {
     h1,h2,h3,h4,h5,h6 {
         margin-bottom: 30px;
+    }
+}
+
+.overlay-txt-dark {
+    .overlay-block > *{
+        color: #9d1e25;
     }
 }
 
