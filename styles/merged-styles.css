@@ -1,16 +1,3 @@
-/*
-$font-primary: 'Oxygen', sans-serif;
-$font-secondary: 'PT Serif', serif;
-$color-primary: #1a78e5;
-$color-heading: #273043;
-$color-bg: #E8EBF7;
-$color-white: #fff;
-$color-dark: #171c29;
-$color-grey: #3F6470;
-$color-light-grey: rgba(39, 48, 67, 0.9);
-$color-pink: #ad1e56;
-*/
-
 :root {
   --font-primary: 'Oxygen', sans-serif;
   --font-secondary: 'PT Serif', serif;
@@ -356,7 +343,7 @@ main .section.godrej-carousel-type-b {
       margin-bottom: 10px;
     }
     .hero.block {
-      min-height: 100vh;
+      min-height: 80vh;
       padding: unset;
       & img {
         object-position: top;
@@ -823,7 +810,7 @@ footer {
   }
 }
 
-/* css for prudential*/
+
 .section.godrej-single-block.link-block {
   padding: 2rem 10%;
   img {
@@ -1085,7 +1072,7 @@ footer {
 .tabs.with-fragment {
   padding-top: 50px;
   .tabs-list {
-    /*display: block;*/
+
   }
   .tabs-tab {
     font-family: 'Oxygen', serif;
