@@ -30,7 +30,6 @@
     padding: 0;
     font-weight: 400;
     margin-top: 20%;
-    /*sm puts changes*/
     margin-left: 60px;
     margin-bottom: 5px;
     color: #fff;
@@ -70,10 +69,6 @@
     background: #fff;
     border: 1px solid #E8EBF7;
     border-radius: 10px;
-    -webkit-transition: all .15s ease-in-out;
-    -moz-transition: all .15s ease-in-out;
-    -o-transition: all .15s ease-in-out;
-    -ms-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
 }
 
@@ -97,18 +92,14 @@
 }
 
 .godrej-carousel-block.carousel-container {
-    /*sm puts changes*/
     max-width: unset;
 }
 
-/* type b css*/
 main .section.godrej-carousel-type-b {
     width: 100%;
     border: 1px solid #E8EBF7;
     border-radius: 10px;
     padding: 65px;
-
-    /*sm puts changes*/
     max-width: 1400px;
     box-sizing: border-box;
     margin: 90px auto;
@@ -121,7 +112,6 @@ main .section.godrej-carousel-type-b {
     margin: 0;
     font-size: 18px;
     font-weight: 500;
-    margin: 0;
     padding: 0;
     margin-bottom: 35px;
 }
@@ -142,10 +132,8 @@ main .section.godrej-carousel-type-b {
     color: rgb(39, 48, 67);
     text-overflow: ellipsis;
     overflow: hidden;
-    display: -moz-box;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
     line-height: 1.2;
     -webkit-line-clamp: 2;
     letter-spacing: -1px;
@@ -178,10 +166,6 @@ main .section.godrej-carousel-type-b {
     display: inline-block;
     background: #1a78e5;
     border-radius: 4px;
-    -webkit-transition: all .15s ease-in-out;
-    -moz-transition: all .15s ease-in-out;
-    -o-transition: all .15s ease-in-out;
-    -ms-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
 }
 
@@ -189,10 +173,7 @@ main .section.godrej-carousel-type-b {
     position: absolute;
     top: -21%;
     transform: translateY(-50%);
-    left: unset;
-    /*sm puts changes*/
     right: 0;
-    /*sm puts changes*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -201,13 +182,11 @@ main .section.godrej-carousel-type-b {
 
 .carousel.carousel-type-b .carousel-navigation-buttons button {
     background-color: #ad1e56;
-    background: #ad1e56;
     margin-right: 1px;
 }
 
 .carousel.carousel-type-b .carousel-navigation-buttons button:hover {
     background-color: #ad1e56;
-    background: #ad1e56;
 }
 
 .carousel.carousel-type-b .carousel-slide-indicator {
@@ -227,11 +206,9 @@ main .section.godrej-carousel-type-b {
 
 .columns.user-manual {
     margin-top: 60px;
-
     &>div {
         max-width: 300px;
     }
-
     a.button {
         font-size: 14px;
         font-weight: 600;
@@ -245,7 +222,6 @@ main .section.godrej-carousel-type-b {
         border: 1px solid #e8ebf7;
         border-radius: 10px;
     }
-
     a.button:hover {
         text-decoration: none;
         color: #fff;
@@ -258,18 +234,15 @@ main .section.godrej-carousel-type-b {
     .carousel-slide {
         flex: 0 0 24%;
     }
-
     .carousel-slide-image {
         width: 100%;
     }
-
     h2 {
         font-size: 18px;
         color: #273043;
         font-weight: 500;
         line-height: normal;
     }
-
     p:nth-of-type(2) {
         font-size: 16px;
         color: rgba(0, 0, 0, .6);
@@ -277,13 +250,12 @@ main .section.godrej-carousel-type-b {
         margin: 0;
         padding: 0;
     }
-    .carousel-slides{
+    .carousel-slides {
         gap: 15px;
     }
-    .carousel-navigation-buttons{
+    .carousel-navigation-buttons {
         top: -11%;
     }
-
     @media (width<=768px) {
         .carousel-slide {
             flex: 0 0 99%;
@@ -296,8 +268,6 @@ main .section.godrej-carousel-type-b {
     }
 }
 
-
-// ---- extended-style ----
 html,
 body {
     font-family: 'Oxygen', sans-serif;
@@ -309,10 +279,6 @@ body>header {
 }
 
 body {
-    /*&.modern-nav>main {
-        margin-top: 0;
-    }*/
-
     &:not(.modern-nav)>main {
         margin-top: 60px;
 
@@ -346,7 +312,6 @@ body {
     }
 
     .section.nav-brand {
-        /* correct the logo alignment */
         padding: 10px 10px 0;
     }
 
@@ -1003,7 +968,6 @@ footer {
 }
 
 .video[data-embed-loaded='false']:not(.placeholder) {
-    /* reserve an approximate space to avoid extensive layout shifts */
     aspect-ratio: 16 / 9;
 }
 
@@ -1384,51 +1348,41 @@ footer {
 .embed-wrapper {
     .snapData {
         background-color: #4ABDAC;
-        /* Teal background */
         color: white;
         font-family: 'Oxygen', sans-serif;
-        /* Assuming Oxygen font usage */
         padding: 20px;
     }
 
     .left {
         display: inline-block;
         margin-right: 20px;
-        /* Spacing between columns */
     }
 
     .datetime {
         font-size: 14px;
-        /* Adjust size as needed */
     }
 
     .priceval {
         font-size: 24px;
-        /* Larger text for price value */
     }
 
     .currency {
         font-size: 12px;
-        /* Smaller text for currency code */
     }
 
     .line {
         height: 1px;
         background-color: white;
         margin-top: -5px;
-        /* Aligns line with bottom of text */
         margin-bottom: 10px;
-        /* Spacing below line */
     }
 
     .lastLabel {
         font-weight: bold;
-        /* Bold for last trade label */
     }
 
     .font12.OxygenRegular.delay {
         font-size: 12px;
-        /* Smaller text for delay notification */
     }
 
 }
