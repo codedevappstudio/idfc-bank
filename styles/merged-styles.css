@@ -443,7 +443,7 @@ main .section.godrej-carousel-type-b {
         .button-container {
             a {
                 display: block;
-                padding: 14px 20px;
+                padding: 18px 30px;
             }
         }
     }
@@ -473,8 +473,8 @@ main .section.godrej-carousel-type-b {
       font-weight: 400;
       color: #fff;
       line-height: 1;
-      border-radius: 4px;
-      background-color: #1A78E5;
+      border-radius: 24px;
+      background-color: #9e1c26;
     }
   }
 }
@@ -597,7 +597,7 @@ a.button {
     &:link,
     &:visited,
     &:hover {
-      background: #171c29;
+      background: #9e1c26;
       order: 0;
       padding: 12px 30px;
       width: auto;
@@ -632,6 +632,10 @@ a.button {
       }
     }
   }
+}
+
+a:any-link {
+    color: #9e1d26;
 }
 
 @media (width >=1024px) {
