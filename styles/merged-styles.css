@@ -356,7 +356,7 @@ main .section.godrej-carousel-type-b {
       margin-bottom: 10px;
     }
     .hero.block {
-      min-height: auto;
+      /*min-height: auto;*/
       padding: unset;
       & img {
         object-position: top;
