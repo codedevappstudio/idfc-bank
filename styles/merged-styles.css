@@ -652,6 +652,12 @@ footer {
             font-size: 48px;
             text-align: center;
             width: 100%;
+            @media (width < 768px) {
+                font-size: 28px;
+                line-height: 36px;
+                text-align: left;
+                padding: 0 20px;
+            }
            &:after {
                display: none;
            }
@@ -771,6 +777,8 @@ footer {
         font-size: 1.2rem;
         line-height: normal;
         font-family: 'Oxygen', sans-serif;
+        flex-direction: row;
+        align-items: center;
       }
       & ul {
         margin: 0;
