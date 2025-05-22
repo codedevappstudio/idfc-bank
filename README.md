@@ -3,7 +3,7 @@
 ## Environments
 
 - Preview: https://main--idfc-bank--codedevappstudio.aem.page/
-- Live: https://main--prudential--codedevappstudio.aem.live/
+- Live: https://main--idfc-bank--codedevappstudio.aem.live/
 
 
 ## Pre-requisites
