@@ -334,7 +334,7 @@ function decorateExternalImages(ele, deliveryMarker) {
           const srcset = child.getAttribute('srcset');
           if (srcset) {
               const queryParams = appendQueryParams(new URL(srcset, extImageSrc), searchParams);
-              child.setAttribute('srcset', queryParams);  
+              child.setAttribute('srcset', queryParams);
           }
         } else if (child.tagName === 'IMG') {
           const src = child.getAttribute('src');
@@ -360,7 +360,7 @@ export function decorateMain(main) {
 
   // decorate external images with implicit external image marker
   decorateExternalImages(main);
-  
+
   // hopefully forward compatible button decoration
   decorateButtons(main);
   decorateIcons(main);
@@ -403,7 +403,7 @@ async function decorateTemplates(main) {
  */
 async function loadEager(doc) {
   document.documentElement.lang = 'en';
-  initializeDropins();
+  // initializeDropins();
   decorateTemplateAndTheme();
 
   if (getMetadata('breadcrumbs').toLowerCase() === 'true') {
