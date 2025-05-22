@@ -387,13 +387,14 @@ main .section.godrej-carousel-type-b {
       }
     }
     .overlay-block {
-      position: relative;
-      top: -440px;
-      text-align: center;
-      color: white;
-      font-size: 28px;
-      max-width: 600px;
-      margin-left: 35%;
+        position: absolute;
+        top: 20px;
+        text-align: center;
+        color: white;
+        font-size: 28px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 20%;
       em {
         color: #3F6470;
       }
