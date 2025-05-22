@@ -5,7 +5,7 @@
             "id": "library",
             "title": "Library",
             "environments": ["edit", "dev"],
-            "url": "/tools/sidekick/library.html"
+            "url": "https://sidekick-library--aem-block-collection--adobe.aem.page/tools/sidekick/library.html?plugin=blocks&path=/block-collection/carousel&index=0"
         },
         {
             "id": "asset-library",
