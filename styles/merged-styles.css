@@ -367,8 +367,6 @@ main .section.godrej-carousel-type-b {
         & img {
           height: auto;
           min-height: 300px;
-          height: 300px;
-          object-position: 100% 100%;
         }
         picture {
           position: relative;
