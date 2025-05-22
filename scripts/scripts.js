@@ -697,7 +697,7 @@ if (sk) {
 } else {
   // wait for sidekick to be loaded
   document.addEventListener('sidekick-ready', () => {
-    document.querySelector('helix-sidekick')
-      .addEventListener('custom:bulkActivate', bulkActivate);
+   /* document.querySelector('helix-sidekick')
+      .addEventListener('custom:bulkActivate', bulkActivate);*/
   }, { once: true });
 }
