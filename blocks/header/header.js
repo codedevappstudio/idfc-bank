@@ -147,12 +147,12 @@ export default async function decorate(block) {
   const fragment = await loadFragment(navPath);
   let languages = null;
 
-  try {
+  /*try {
     const response = await fetch('/languages.json');
     languages = await response.json();
   } catch (e) {
     // error handling
-  }
+  }*/
 
   // decorate nav DOM
   const nav = document.createElement('nav');
@@ -161,7 +161,7 @@ export default async function decorate(block) {
   if (!fragment) {
     return;
   }
-  
+
   while (fragment.firstElementChild) nav.append(fragment.firstElementChild);
 
   const classes = ['brand', 'sections', 'tools'];
