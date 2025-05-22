@@ -2,8 +2,8 @@
 
 ## Environments
 
-- Preview: https://main--prudential--preetishb.hlx.page/
-- Live: https://main--prudential--preetishb.hlx.live/
+- Preview: https://main--idfc-bank--codedevappstudio.aem.page/
+- Live: https://main--prudential--codedevappstudio.aem.live/
 
 
 ## Pre-requisites
