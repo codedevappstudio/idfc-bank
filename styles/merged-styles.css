@@ -587,6 +587,7 @@ main .section.godrej-carousel-type-b {
     }
     & .columns-2-cols>div {
       gap: 64px;
+        align-items: center;
     }
   }
 }
