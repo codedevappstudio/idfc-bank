@@ -122,7 +122,7 @@ function setActiveTab() {
 
   [...navTabLinks.children].forEach((tab) => {
     const link = tab.querySelector('a');
-    const linkTitle = link.title.toLowerCase();
+    const linkTitle = link?.title.toLowerCase();
 
     if (linkTitle === path || (linkTitle === 'shop' && ['products', 'equipment', 'search'].includes(path))) {
       link.classList.add('active');
