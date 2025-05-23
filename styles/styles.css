@@ -1053,7 +1053,7 @@ main .section.godrej-carousel-type-b {
             margin-bottom: 10px;
         }
         .hero.block {
-            min-height: 80vh;
+            /*min-height: 80vh;*/
             padding: unset;
             & img {
                 object-position: top;
@@ -1525,7 +1525,7 @@ footer {
     padding: 2rem 10%;
     img {
         height: 350px;
-        object-fit: contain;
+        /*object-fit: contain;*/
     }
     h2 {
         font-size: 1.2rem;
